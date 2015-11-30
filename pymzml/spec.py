@@ -85,7 +85,7 @@ class Spectrum(dict):
         Example:
 
         >>> import pymzml
-        >>> s = pymzml.spec.Spectrum( measuredPrescision = 20e-6 )
+        >>> s = pymzml.spec.Spectrum( measuredPrecision = 20e-6 )
         >>> file_to_read = "../mzML_example_files/xy.mzML.gz"
         >>> run = pymzml.run.Reader(file_to_read , MS1_Precision = 5e-6 , MSn_Precision = 20e-6)
         >>> for spec in run:
